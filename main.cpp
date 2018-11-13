@@ -1,9 +1,23 @@
 /*
  * MyKomfortBlinker_v1.04.cpp
  *
- * Created: 28.09.2016 14:01:50
- * Author : figaro
- */ 
+ * Copyright 2017 Alexey Komarov rdalexey@yandex.ru
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ 
+ 
+
 
 #define F_CPU 4800000UL				// тактовая частота микроконтроллера 4,8MHz. FUSE - lfuse=59 hfuse=FA (CKDIV8=0)
 //#define F_CPU 600000UL			// тактовая частота микроконтроллера 0,6MHz. FUSE - lfuse=49 hfuse=FA (CKDIV8=1)
